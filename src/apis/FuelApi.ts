@@ -25,6 +25,7 @@ class FuelApi {
      * This implementation allows you to extend the Singleton class while
      * keeping just one instance of each subclass around.
      */
+    // *************************************************CANDIDATA PRUEBA UNITARIA getInstance - patrón Singleton
     public static getInstance(cacheLocalStorage: boolean = false): FuelApi {
         if (!FuelApi.instance) {
             FuelApi.instance = new FuelApi(cacheLocalStorage);
